@@ -1,13 +1,18 @@
+/*universal selector box size will have 0px padding and 0px margin*/
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/*background color for the body will be #d9dcd6*/
 body {
   background-color: #d9dcd6;
 }
 
+/*class header will have a font color of #ffffff, a background color of
+#2a607c, and the first font displayed will be trebuchet MS, with 20px
+of padding*/
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,15 +21,21 @@ body {
   color: #ffffff;
 }
 
+/*This class will be displayed inline with the block and have a font size
+of 48px*/
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/*This class will have a font color of #d9dcd6*/
 .header h1 .seo {
   color: #d9dcd6;
 }
 
+/*This class will have a Gill Sans font, with a size of 20px, and will float
+20px to the right of its cointainer. 15px of padding will be displayed on top
+and will be 20px from the margin*/
 .header div {
   padding-top: 15px;
   margin-right: 20px;
@@ -33,24 +44,26 @@ body {
   font-size: 20px;
 }
 
-.header div ul {
-  list-style-type: none;
-}
-
+/*Unordered list in header will be displayed inline, and be 25px away from the left margin*/
 .header div ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/*The color of these anchor tags will be white, and the text will have no decoration*/
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/*paragraphs will have a font size of 16px*/
 p {
   font-size: 16px;
 }
 
+/*This class will have a width of 100% of the cointainer, and a height of  
+800px, it will be 25px away from the bottom margin. The image will be centered
+and will cover the containere */
 .hero {
   height: 800px;
   width: 100%;
@@ -60,22 +73,31 @@ p {
   background-position: center;
 }
 
+/*This class will float left of the contianer 25px away from the right 
+margin*/
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/*This class will float to the right of its container 25px from the
+left margin*/
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/*This class will take up 75% of the container and will be inline with
+the block*/
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/*This class will have 20px of padding, it will fill 100%
+of the height and 20% of the width
+Backround color set to blue and first choice of font is Gill Sans */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -85,9 +107,10 @@ p {
   height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
-} /*Width and Height describe how the screen is filled.  
-Backround color set to blue and first choice of font is Gill Sans */
+}
 
+/*This class will have a font color of white and a margin
+of 32px*/
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -95,6 +118,8 @@ Backround color set to blue and first choice of font is Gill Sans */
   color: #ffffff;
 }
 
+/*This class will have the text aligned in the center
+with a 10px margin*/
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -102,14 +127,20 @@ Backround color set to blue and first choice of font is Gill Sans */
   text-align: center;
 }
 
+/*These classes will be displayed in a block, with a margin
+of 10 px, and a maximum width of 150px*/
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
   display: block;
   margin: 10px auto;
-  max-width: 150px; /* comment out*/
+  max-width: 150px;
 }
 
+/*These classes will have the font Gill Sans, with a 
+color of #ffffff, and a background color of #0072bb
+Each has a height pf 300px, padding 50px, and 20px for 
+the margin, totaling 370px*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -121,12 +152,14 @@ Backround color set to blue and first choice of font is Gill Sans */
   color: #ffffff;
 }
 
+/*Maximum height these images will be is 200px*/
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
   max-height: 200px;
 }
 
+/*Font size will be 36px and 20px*/
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -134,6 +167,8 @@ Backround color set to blue and first choice of font is Gill Sans */
   font-size: 36px;
 }
 
+/*The footer will have a padding of 30px, aligned in
+the center, with a Trebuchet MS font*/
 .footer {
   padding: 30px;
   clear: both;
@@ -141,7 +176,7 @@ Backround color set to blue and first choice of font is Gill Sans */
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
-
+/*font size for heading in footer */
 .footer h2 {
   font-size: 20px;
 }
